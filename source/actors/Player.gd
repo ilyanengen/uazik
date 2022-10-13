@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-var wheel_base = 70  # Distance from front to rear wheel
-var steering_angle = 15  # Amount that front wheel turns, in degrees
+var wheel_base = 128  # Distance from front to rear wheel = sprite length
+var steering_angle = 120 #45 # Amount that front wheel turns, in degrees
 var velocity = Vector2.ZERO
 var steer_angle
 var engine_power = 800  # Forward acceleration force.
